@@ -1,0 +1,45 @@
+# Node.js (Backend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.env
+.env.local
+.env.*.local
+dist/
+coverage/
+
+# Flutter/Dart (Frontend)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# IDE
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Compiled files
+*.class
+*.log
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.lock
+.history/
