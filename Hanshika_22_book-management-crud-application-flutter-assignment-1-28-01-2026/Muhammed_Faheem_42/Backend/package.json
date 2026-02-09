@@ -1,0 +1,19 @@
+{
+  "name": "book-management",
+  "version": "1.0.0",
+  "description": "Book management backend: The objective of this assignment is to provide students with hands-on experience in full-stack application development. Students are required to develop a Book Management Application where users can perform Create, Read, Update, and Delete (CRUD) operations on books.The application should include a backend, a frontend mobile app, and a database, all properly integrated.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "nodemon": "^3.1.11"
+  }
+}
